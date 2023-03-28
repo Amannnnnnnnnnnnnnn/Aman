@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.ico" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+body
+        {
+background-color: aquamarine;
+
+        }
+        input {width: 15%;
+        padding: 12px 20px;
+    margin: 8px 0px;
+box-sizing: border-box;
+        }
+        input [type=text]:focus {
+            background-color:red;
+        }
+        label {
+            color:black;
+        }
+h1 { font-family:'Times New Roman', Times, serif;
+            text-shadow: 7px 7px gray;
+    }
+
+    </style>
+</head>
+<body>
+<h1>Feedback Form</h1>
+<form id="f1" methood="POST" action="mailto:amanticgamer@gmail.com">
+<label for="fname">First Name</label>
+<input type="text" name="fname" id="fn">
+<br> <br>
+<label for="lname">Last Name</label>
+<input type="text" name="lname" id="ln">
+<br> <br>
+<label for="gen">Gender</label>
+<br>
+<input type="radio" name="gen" value="male"> Male
+<br>
+<input type="radio" name="gen" value="female"> Female
+<br>
+<input type="radio" name="gen" value="nottell"> Rather Not Tell
+<br>
+<input type="radio" name="gen" value="wb"> Wallmart Bag
+<br> <br>
+<label for="feedback"> Feedback</label>
+<textarea name="feedback" cols="100" rows="30"> Enter Feedback...</textarea>
+<br> <br>
+<input type="submit">
+</form>
+<a href="portfolio.html">Back To Home Page</a>
+</body>
+</html>
